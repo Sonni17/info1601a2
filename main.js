@@ -41,4 +41,5 @@ function displayMyPokemon(mypokemon){
 async function releasePokemon(user_pokemon_id){
     const user_id = getId();//gets the userid from the text field or prompts the user
     //makes a request to the release pokemon API url then call getMyPokemon() to reload the table
+    // toast();  //send a toast message after the request is made
 }

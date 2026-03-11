@@ -1,15 +1,17 @@
 {
-    "puppeteer": {
-      "headless": true,
-      "executablePath": "",
-      "slowMo": 0,
-      "devtools": false,
-      "defaultViewport": { "width": 1400, "height": 1080 },
-      "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
-    },
-    "baseUrl": "http://localhost:3000",
-    "port": 3000,
-    "timeout": 3000,
-    "waitUntil": "load"
+  "puppeteer": {
+    "headless": false,
+    "executablePath": "",
+    "slowMo": 50,
+    "devtools": false,
+    "defaultViewport": { "width": 1800, "height": 1280 },
+    "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
+  },
+  "baseUrl": "http://localhost:3000",
+  "port": 3000,
+  "timeout": 5000,
+  "waitUntil": "load",
+  "variables": {
+    "user_id": "1001"
   }
-  
+}

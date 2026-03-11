@@ -1,4 +1,4 @@
-const server = "https://pokedextr.beuwi.app";
+const server = "https://pokedextr.uwista.dev";
 
 document.addEventListener('DOMContentLoaded', function() {
     M.Sidenav.init(document.querySelectorAll('.sidenav'));

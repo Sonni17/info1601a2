@@ -2,14 +2,14 @@
   "puppeteer": {
     "headless": false,
     "executablePath": "",
-    "slowMo": 50,
+    "slowMo": 100,
     "devtools": false,
     "defaultViewport": { "width": 1800, "height": 1280 },
     "args": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
   },
   "baseUrl": "http://localhost:3000",
   "port": 3000,
-  "timeout": 5000,
+  "timeout": 6000,
   "waitUntil": "load",
   "variables": {
     "user_id": "816051287"

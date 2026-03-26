@@ -1,5 +1,8 @@
 async function loadListing(){
-    //makes a request to the pokemon listing API url
+     fetch(`${BASE_URL}/pokemon`)
+    .then(res => res.json())
+    .then(data => displayListing(data))
+    .catch(err => console.error("loadListing error:", err));
 
 }
 
